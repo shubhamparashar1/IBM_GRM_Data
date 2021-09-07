@@ -1,23 +1,3 @@
-<!-- TABLE OF CONTENTS -->
-<details open="open">
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-    </li>
-    <li>
-      <a href="#experiments">Experiments</a>
-      <ul>
-        <li><a href="#experiment-1">Experiment 1</a></li>
-        <li><a href="#experiment-2">Experiment 2</a></li>
-      </ul>
-    </li>
-    <li><a href="#roadmap">Roadmap</a></li>
-  </ol>
-</details>
-
-
-
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
@@ -36,28 +16,4 @@ This repository in particular records my experiments done during 12th June 2021 
 
 For both the experiments, I've used the Liu et al. dataset in tandum with the afrementioned LogGen model. The dataset is a standard benchmarking dataset that has been used over the years fot comparitive studies.
 
-### Experiment 1
-
-The aim of experiment-1 is to cluster the dataset based on the cosine distance between the attained CC2Vec vectors. Notable observations from the same are -•All of the attained clusters have heterogeneous log messages associated to them, i.e.similar code changes are not corresponding to similar log messages (Figure 1)•Not only are the clusters heterogeneous,  they also have non zero jaccard score witheach other, i.e.  the same log messages are present in multiple clusters
-
-### Experiment 2
-
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/your_username_/Project-Name.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```JS
-   const API_KEY = 'ENTER YOUR API';
-   ```
-
-
-<!-- ROADMAP -->
-## Roadmap
-
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a list of proposed features (and known issues).
+Experiment-1 deals with clustering the commits based on their cosine distance while experiment-2 deals with analysing the dataset syntactics.
