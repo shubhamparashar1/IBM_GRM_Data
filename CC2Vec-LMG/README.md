@@ -1,8 +1,6 @@
-# Fork of the necessary files required for LogGen
-# CC2Vec: Distributed Representations of Code Changes [[pdf](https://arxiv.org/pdf/2003.05620.pdf)]
+# Fork of the necessary files from CC2Vec [[pdf](https://arxiv.org/pdf/2003.05620.pdf)] required for LogGen
 
-## Contact
-Questions and discussion are welcome: vdthoang.2016@smu.edu.sg
+## Contact of the owners : vdthoang.2016@smu.edu.sg
 
 ## Implementation Environment
 
