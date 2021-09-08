@@ -14,4 +14,4 @@ This repository in particular records my experiments done between 14th June 2021
 <!-- CONTENTS -->
 ## Contents
 
-Experiment-1 deals with clustering the commits based on their cosine distance while experiment-2 deals with analysing the dataset syntactics. Most of the outputs are enclosed within the notebooks themselves. The exception to this are the outputs in experiment-2 (sorted_test & sorted_train).
+Experiment-1 deals with clustering the commits based on their cosine distance while experiment-2 deals with analysing the dataset syntactics. Most of the outputs are enclosed within the notebooks themselves. The exception to this are the final outputs of experiment-2, sorted_test & sorted_train.
