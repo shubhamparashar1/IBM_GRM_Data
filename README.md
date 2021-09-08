@@ -9,11 +9,9 @@ Our work for the GRM program involved finding ways to improve on the state-of-th
 3. For an unknown code change, summarize top k most similar code changes into a single output log message 
 4. Improving the evaluation metric used for assessing quality of test data log messages
 
-This repository in particular records my experiments done during 12th June 2021 and 8th September 2021. 
+This repository in particular records my experiments done between 14th June 2021 and 31st August 2021. For both the experiments, I've used the Liu et al. dataset in tandum with the afrementioned LogGen model. The dataset is a standard benchmarking dataset that has been used over the years fot comparitive studies.
 
-<!-- EXPERIMENTS -->
-## Experiments
+<!-- CONTENTS -->
+## Contents
 
-For both the experiments, I've used the Liu et al. dataset in tandum with the afrementioned LogGen model. The dataset is a standard benchmarking dataset that has been used over the years fot comparitive studies.
-
-Experiment-1 deals with clustering the commits based on their cosine distance while experiment-2 deals with analysing the dataset syntactics.
+Experiment-1 deals with clustering the commits based on their cosine distance while experiment-2 deals with analysing the dataset syntactics. Most of the outputs are enclosed within the notebooks themselves. The exception to this are the outputs in experiment-2 (sorted_test & sorted_train).
